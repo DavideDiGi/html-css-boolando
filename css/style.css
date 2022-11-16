@@ -4,5 +4,57 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: grey;
 }
+
+
+
+
+
+
+
+
+
+/* DEBUG HEADER */
+.debug header{
+    background-color: orangered;
+    width: 100%;
+    height: 55px;
+}
+
+/* DEBUG HEADER BIG CONTAINER */
+.debug header>.big-container{
+    background-color: grey;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* DEBUG HEADER CONTAINER */
+.debug header .header-flex-container{
+    background-color: pink;
+    display: flex;
+}
+
+/* DEBUG HEADER LEFT SIDE */
+.debug .gender{
+    background-color: greenyellow;
+}
+
+
+/* DEBUG HEADER CENTER */
+.debug .logo{
+    background-color: yellow;
+}
+
+
+/* DEBUG HEADER LEFT RIGHT */
+.debug .header-icons{
+    background-color: aqua;
+}
+
+
+/* DEBUG MAIN */
+
+
+
+/* DEBUG FOOTER */
