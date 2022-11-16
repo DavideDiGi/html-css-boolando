@@ -9,6 +9,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/****************************** HEADER ******************************/
+
 header{
     background-color: rgb(237, 114, 46);
     width: 100%;
@@ -55,7 +57,7 @@ max-width: 120px;
     padding: 0 0 0 5px;
 }
 
-/****** MAIN ******/
+/****************************** MAIN ******************************/
 
 main{
     margin-top: 100px;
@@ -81,6 +83,26 @@ main .flex-container{
     width: 100%;
 }
 
+/*********** SOSTITUZIONE FOTO ***********/
+.none{
+    display: none;
+}
+.image:hover>.disappear{
+    display: none;
+
+}
+.image:hover>.none{
+    cursor: pointer;
+    display: block;
+}
+/*********** FINE SOSTITUZIONE FOTO ***********/
+
+
+/*********** CUORE ROSSO ***********/
+.favourite-flex:hover{
+    cursor: pointer;
+    color:red;
+}
 
 .favourite-flex{
     width: 35px;
@@ -142,9 +164,50 @@ main .flex-container{
     text-decoration: line-through;
 }
 
+/****************************** FOOTER ******************************/
 
 
+footer{
+    background-color: black;
+    /* width: 100%; */
+    height: 75px;
+}
 
+.footer-flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;   
+}
+
+.footer-flex-container>* {
+    padding: 10px 0 10px 0;
+    color: white;
+}
+.company-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.privacy a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.find-us{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.footer-icons{
+    color: white;
+    margin-top: 5px;
+}
+
+.footer-icons a{
+    color: white;
+    padding: 2px; 
+}
 
 
 /****** DEBUG HEADER ******/
