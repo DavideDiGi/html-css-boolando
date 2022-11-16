@@ -5,10 +5,55 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
+header{
+    background-color: rgb(237, 114, 46);
+    width: 100%;
+    height: 55px;
+    font-size: 14px;
+}
 
+header.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
 
+.big-container{
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
 
+header .header-flex-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.gender a{
+    font-weight: bold;
+}
+.logo{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo img{
+max-width: 120px;
+}
+.header-flex-container a{
+    padding: 0 0 0 5px;
+}
 
 
 
@@ -47,7 +92,6 @@
 /* DEBUG HEADER LEFT SIDE */
 .debug .gender{
     background-color: greenyellow;
-
 }
 
 /* DEBUG HEADER CENTER */
@@ -68,6 +112,7 @@
 /* STACCO IL CONTENUTO DEL MAIN DALLA CIMA DELLA PAGINA */
 .debug main{
     margin-top: 100px;
+
 }
 /* CONTENITORE MAIN FLEX */
 .debug main .flex-container{
